@@ -8,6 +8,18 @@ conexao = mysql.connector.connect(#conexão com database
 )
 cursor = conexao.cursor() #executar os comandos da minha conexão, iniciar e fechar
 
+
+#estrutura de funções
+
+def criar():
+    pass
+def ler():
+    pass
+def atualizar():
+    pass
+def deletar():
+    pass
+
 #CREATE
 nome_produto = "banana"
 valor = 7
